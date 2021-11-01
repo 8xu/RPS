@@ -4,7 +4,7 @@ from random import randint
 from os import system, name
 from sys import exit
 
-def clear():
+def clear(): # Clearing the screen after each round
     system('cls' if name == 'nt' else 'clear')
 
 replay = 'Y'
@@ -32,4 +32,4 @@ while replay == 'Y' or 'y':
         exit()
     clear()
 
-## hey :)
+## feel free to fork this repository and make your own version of the game!
